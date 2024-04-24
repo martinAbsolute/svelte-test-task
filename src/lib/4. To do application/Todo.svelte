@@ -13,6 +13,6 @@
 		{title}
 	</span>
 	<button class="size-8 inline p-1" on:click={() => dispatch('toggle')}>
-		<img src={isCompleted ? 'face-happy.svg' : 'face-neutral.svg'} alt="check" />
+		<img src={isCompleted ? '/face-happy.svg' : '/face-neutral.svg'} alt="check" />
 	</button>
 </li>

@@ -20,7 +20,7 @@
 	<section class="h-full w-full md:w-3/5 bg-black relative">
 		{#if ready}
 			<img
-				src="model.jpg"
+				src="/model.jpg"
 				alt="Model 1"
 				class="absolute size-full object-cover"
 				transition:fade={{ duration: 3000 }}
@@ -28,7 +28,7 @@
 		{/if}
 		<div class="relative z-10 h-1/3 w-full">
 			<div class="flex text-white p-12 pl-16">
-				<img src="menu.svg" alt="Menu Button" height="20" width="20" class="mr-8" />
+				<img src="/menu.svg" alt="Menu Button" height="20" width="20" class="mr-8" />
 				<span class="font-semibold text-2xl">Menu</span>
 			</div>
 		</div>
@@ -72,13 +72,13 @@
 		</div>
 		{#if ready}
 			<img
-				src="model2.jpg"
+				src="/model2.jpg"
 				alt="Model 2"
 				class="absolute w-1/3 lg:w-1/3 top-1/4 right-1/4"
 				transition:fly={{ y: -400, duration: 1000 }}
 			/>
 			<img
-				src="model3.jpg"
+				src="/model3.jpg"
 				alt="Model 3"
 				class="absolute h-1/3 bottom-16 left-14"
 				transition:fly={{ x: -200, duration: 2000 }}
